@@ -45,9 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AudioSample.cs" />
-     <Compile Include="Assets\Scripts\Score.cs" />
-     <Compile Include="Assets\Scripts\Track.cs" />
+     <Compile Include="Assets\Scripts\Composition\Chord.cs" />
+     <Compile Include="Assets\Scripts\Composition\ChordProgression.cs" />
+     <Compile Include="Assets\Scripts\Composition\Chord_Type.cs" />
+     <Compile Include="Assets\Scripts\Composition\Composer.cs" />
+     <Compile Include="Assets\Scripts\Composition\Scale.cs" />
+     <Compile Include="Assets\Scripts\Composition\Scale_Type.cs" />
+     <Compile Include="Assets\Scripts\Instruments\DrumKit.cs" />
+     <Compile Include="Assets\Scripts\Instruments\Instrument.cs" />
+     <Compile Include="Assets\Scripts\Metronome\Metronome.cs" />
+     <Compile Include="Assets\Scripts\Metronome\Playhead.cs" />
+     <Compile Include="Assets\Scripts\WritingTo Track\AudioSample.cs" />
+     <Compile Include="Assets\Scripts\WritingTo Track\SampleManager.cs" />
+     <Compile Include="Assets\Scripts\WritingTo Track\Track.cs" />
+     <None Include="Assets\Font\Baloo_Bhaina\OFL.txt" />
      <None Include="Assets\Font\Yatra_One\OFL.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

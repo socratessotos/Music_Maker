@@ -1,0 +1,11 @@
+﻿public enum Scale_Type {
+	MAJOR,
+	MINOR,
+	DORIAN,
+	PHRYGIAN,
+	LYDIAN,
+	MIXOLYDIAN,
+	LOCRIAN,
+	WHOLETONE,
+
+}
